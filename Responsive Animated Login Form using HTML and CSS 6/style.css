@@ -12,8 +12,10 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #be2edd;
-  /* overflow: hidden; */
+  overflow: hidden;
+  background: url(/cool-4k-ultra-hd-nao22k6od4a4djyl.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 button {
@@ -22,13 +24,13 @@ button {
   right: 20px;
   width: 150px;
   height: 50px;
-  background: #fff;
+  background: #1d05f5;
   border-radius: 10px;
   border: none;
   outline: none;
   cursor: pointer;
   font-size: 20px;
-  color: #be2edd;
+  color: #fff;
   font-weight: 500;
   z-index: 1;
   transform-origin: bottom right;
@@ -44,10 +46,10 @@ button.active {
   right: 10px;
   width: 30px;
   height: 30px;
-  background: #be2edd;
+  background: #1d05f5;
   border-radius: 50%;
   text-decoration: none;
-  box-shadow: 0 5px 10px #be2edd;
+  box-shadow: 0 5px 10px #1d05f5;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,7 +95,7 @@ button.active {
 
 .bg {
   position: absolute;
-  background: #be2edd;
+  background: transparent;
   width: 400px;
   height: 500px;
 }
@@ -129,6 +131,10 @@ button.active {
   transition-delay: 0s;
 }
 
+.wrapper.show-sign span {
+  background: transparent;
+}
+
 .wrapper .form-wrapper.sign-up {
   transform: translateX(850px);
   transition: 3s;
@@ -141,7 +147,7 @@ button.active {
 
 h2 {
   font-size: 30px;
-  color: #be2edd;
+  color: #1d05f5;
   text-align: center;
 }
 
@@ -177,12 +183,12 @@ h2 {
   top: 0;
   font-size: 12px;
   background: #fff;
-  color: #be2edd;
+  color: #1d05f5;
 }
 
 .input-group input:focus,
 .input-group input:valid {
-  border: 1px solid #be2edd;
+  border: 1px solid #1d05f5;
 }
 
 .remember {
@@ -195,7 +201,7 @@ h2 {
 }
 
 .remember label input {
-  accent-color: #be2edd;
+  accent-color: #1d05f5;
 }
 
 .btn {
@@ -204,8 +210,8 @@ h2 {
   left: 0;
   width: 100%;
   height: 40px;
-  background: #be2edd;
-  box-shadow: 0px 5px 10px #be2edd;
+  background: #1d05f5;
+  box-shadow: 0px 5px 10px #1d05f5;
   font-size: 16px;
   cursor: pointer;
   border-radius: 5px;
@@ -225,7 +231,7 @@ h2 {
 }
 
 .sign-link p a {
-  color: #be2edd;
+  color: #1d05f5;
   text-decoration: none;
   font-weight: 600;
 }

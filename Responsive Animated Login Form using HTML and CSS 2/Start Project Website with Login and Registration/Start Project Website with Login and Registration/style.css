@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  transition: 1s;
 }
 
 body {
@@ -12,9 +13,10 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: url(/background.jpg) no-repeat;
+  background: url(/the-samurai-are-resting-wallpa.jpg) no-repeat;
   background-size: cover;
   background-position: center;
+  transition: 1s;
 }
 
 header {
@@ -76,6 +78,7 @@ header {
   border: 2px solid rgba(255, 255, 255, 0.5);
   border-radius: 20px;
   backdrop-filter: blur(20px);
+  backdrop-filter: brightness(40%);
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
@@ -96,9 +99,9 @@ header {
 
 .wrapper .form-box {
   width: 100%;
-  transition: transform 1s ease;
+  transition: 1s ease;
   padding: 40px;
-}
+}x
 
 .wrapper .form-box.login {
   transition: 1s ease;
@@ -131,8 +134,8 @@ header {
   right: 0;
   width: 45px;
   height: 45px;
-  background: #162938;
-  color: #fff;
+  background: #fff;
+  color: #162938;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -143,7 +146,7 @@ header {
 
 .form-box h2 {
   font-size: 2em;
-  color: #162938;
+  color: #fff;
   text-align: center;
 }
 
@@ -151,7 +154,7 @@ header {
   position: relative;
   width: 100%;
   height: 50px;
-  border-bottom: 2px solid #162938;
+  border-bottom: 2px solid #fff;
   margin: 30px 0;
 }
 
@@ -163,6 +166,7 @@ header {
   font-weight: 500;
   pointer-events: none;
   transition: 0.5s;
+  color: #fff;
 }
 
 .input-box input:focus ~ label,
@@ -177,7 +181,7 @@ header {
   border: none;
   outline: none;
   font-size: 1em;
-  color: #162938;
+  color: #fff;
   font-weight: 600;
   padding: 0px 35px 0px 5px;
 }
@@ -186,13 +190,13 @@ header {
   position: absolute;
   right: 8px;
   font-size: 1.2em;
-  color: #162938;
+  color: #fff;
   line-height: 57px;
 }
 
 .remember-forgot {
   font-size: 0.9em;
-  color: #162938;
+  color: #fff;
   font-weight: 500;
   margin: -15px 0px 15px;
   display: flex;
@@ -200,12 +204,12 @@ header {
 }
 
 .remember-forgot label input {
-  accent-color: #162938;
+  accent-color: #fff;
   margin-right: 3px;
 }
 
 .remember-forgot a {
-  color: #162938;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -216,26 +220,26 @@ header {
 .btn {
   width: 100%;
   height: 45px;
-  background: #162938;
+  background: #fff;
   border: none;
   outline: none;
   border-radius: 6px;
   cursor: pointer;
   font-size: 1em;
-  color: #fff;
+  color: #162938;
   font-weight: 500;
 }
 
 .login-register {
   font-size: 0.9em;
-  color: #162938;
+  color: #fff;
   text-align: center;
   font-weight: 500;
   margin: 25px 0px 10px;
 }
 
 .login-register p a {
-  color: #162938;
+  color: #fff;
   text-decoration: none;
   font-weight: 600;
 }
@@ -262,7 +266,7 @@ header {
     width: 45px;
     height: 45px;
     background: white;
-    color: #000;
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -310,7 +314,7 @@ header {
     padding: 20px;
     position: relative;
     top: -140px;
-    transition: 0.18s ease;
+    transition: 0.5s ease;
   }
 
   body {
@@ -318,5 +322,6 @@ header {
   }
   .wrapper .icon-close {
     display: none;
+    transition: 0.5s ease;
   }
 }
